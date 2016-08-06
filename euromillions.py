@@ -45,8 +45,8 @@ def generate_numbers():
 
 
 def send_tweet(lucky_numbers):
-    contact_K = "@kvandenbrande"
-    contact_L = "@ldvandenbrande"
+    contact_K = "@TWITTERNAME"
+    contact_L = "@TWITTERNAME"
     tweet_direct_message(contact_K,lucky_numbers)
     time.sleep(1)
     tweet_direct_message(contact_L,lucky_numbers)
