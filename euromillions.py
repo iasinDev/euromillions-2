@@ -31,7 +31,7 @@ def generate_numbers():
             my_list1.append(new_number)         
 
     while len(my_list2) < 2:
-        new_stars = random.randrange(11)+1
+        new_stars = random.randrange(12)+1
         if not new_stars in my_list2:
             my_list2.append(new_stars)
 
